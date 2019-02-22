@@ -2,7 +2,7 @@
 
 @grass: darken(#cdebb0, 70%);        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: darken(#c8d7ab, 70%);        // Lch(84,24,122)
-@forest: darken(#add19e, 70%);       // Lch(80,30,135)
+@forest: darken(#414f3c, 70%);       // Lch(80,30,135), was #add19e
 @forest-text: darken(#46673b, 70%);  // Lch(40,30,135)
 @park: darken(#c8facc, 70%);         // Lch(94,30,145)
 @allotments: darken(#c9e1bf, 70%);   // Lch(87,20,135)
@@ -779,7 +779,7 @@
   }
 
   //Also landuse = forest, converted in the SQL
-  [natural = 'wood'][zoom >= 10]::wood { // was >= 13
+  [natural = 'wood'][zoom >= 13]::wood {
     polygon-pattern-file: url('symbols/leaftype_unknown.svg'); // Lch(55,30,135)
     [leaf_type = "broadleaved"] { polygon-pattern-file: url('symbols/leaftype_broadleaved.svg'); }
     [leaf_type = "needleleaved"] { polygon-pattern-file: url('symbols/leaftype_needleleaved.svg'); }
