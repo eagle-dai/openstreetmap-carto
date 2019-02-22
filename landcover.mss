@@ -2,7 +2,7 @@
 
 @grass: darken(#cdebb0, 70%);        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: darken(#c8d7ab, 70%);        // Lch(84,24,122)
-@forest:  #191627 //darken(#add19e, 70%);       // Lch(80,30,135)
+@forest:  #191627; //darken(#add19e, 70%);       // Lch(80,30,135)
 @forest-text: darken(#46673b, 70%);  // Lch(40,30,135)
 @park: darken(#c8facc, 70%);         // Lch(94,30,145)
 @allotments: darken(#c9e1bf, 70%);   // Lch(87,20,135)
