@@ -2,7 +2,7 @@
 
 @grass: darken(#cdebb0, 70%);        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
 @scrub: darken(#c8d7ab, 70%);        // Lch(84,24,122)
-@forest: darken(#add19e, 70%);       // Lch(80,30,135)
+@forest:  #191627 //darken(#add19e, 70%);       // Lch(80,30,135)
 @forest-text: darken(#46673b, 70%);  // Lch(40,30,135)
 @park: darken(#c8facc, 70%);         // Lch(94,30,145)
 @allotments: darken(#c9e1bf, 70%);   // Lch(87,20,135)
@@ -51,7 +51,7 @@
 @power: darken(@industrial, 5%);
 @power-line: darken(@industrial-line, 5%);
 @sand: darken(#f5e9c6, 70%);
-@societal_amenities:  #10284a;   // Lch(99,13,109)
+@societal_amenities:  #31435b; // like universities  // Lch(99,13,109)
 @tourism: darken(#660033, 70%);
 @quarry: darken(#c5c3c3, 70%);
 @military: darken(#f55, 70%);
@@ -779,7 +779,7 @@
   }
 
   //Also landuse = forest, converted in the SQL
-  [natural = 'wood'][zoom >= 0]::wood { // original: [zoom >= 13]
+  [natural = 'wood'][zoom >= 13]::wood {
     polygon-pattern-file: url('symbols/leaftype_unknown.svg'); // Lch(55,30,135)
     [leaf_type = "broadleaved"] { polygon-pattern-file: url('symbols/leaftype_broadleaved.svg'); }
     [leaf_type = "needleleaved"] { polygon-pattern-file: url('symbols/leaftype_needleleaved.svg'); }
