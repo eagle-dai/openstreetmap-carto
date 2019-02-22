@@ -58,7 +58,7 @@ no official postal addresses) */
     text-name: "[name]";
     text-placement: interior;
     text-face-name: @book-fonts;
-    text-fill: #444;
+    text-fill: darken(#444, 70%);
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-size: 11;

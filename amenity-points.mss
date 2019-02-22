@@ -207,7 +207,7 @@
 
   [feature = 'highway_traffic_signals'][zoom >= 17] {
     marker-file: url('symbols/highway/traffic_light.13.svg');
-    marker-fill: #545454;
+    marker-fill: darken(#545454, 70%);
     marker-placement: interior;
     marker-clip: false;
   }
@@ -1565,7 +1565,7 @@
 
   [feature = 'natural_volcano'][zoom >= 11] {
     marker-file: url('symbols/natural/peak.svg');
-    marker-fill: #d40000;
+    marker-fill: darken(#d40000, 70%);
     marker-placement: interior;
     marker-clip: false;
   }
@@ -1748,7 +1748,7 @@
     [zoom >= 17] {
       marker-width: 3;
       marker-line-width: 0;
-      marker-fill: #7d7c7c;
+      marker-fill: darken(#7d7c7c, 70%);
       marker-placement: interior;
 
       [zoom >= 18] {
@@ -1797,7 +1797,7 @@
   [feature = 'place_islet'][zoom >= 11][way_pixels > 3000][way_pixels < 800000],
   [feature = 'place_islet'][zoom >= 17][way_pixels < 800000] {
     text-name: "[name]";
-    text-fill: #000;
+    text-fill: darken(#000, 70%);
     text-size: @landcover-font-size;
     text-wrap-width: @landcover-wrap-width-size;
     text-line-spacing: @landcover-line-spacing-size;
@@ -2022,7 +2022,7 @@
     text-size: @standard-font-size;
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
-    text-fill: #000033;
+    text-fill: darken(#000033, 70%);
     text-dy: 12;
     text-face-name: @standard-font;
     text-halo-radius: @standard-halo-radius;
@@ -2053,7 +2053,7 @@
     text-wrap-width: @standard-wrap-width;
     text-line-spacing: @standard-line-spacing-size;
     text-fill: darken(@landform-color, 30%);
-    [feature = 'natural_volcano'] { text-fill: #d40000; }
+    [feature = 'natural_volcano'] { text-fill: darken(#d40000, 70%); }
     text-dy: 7;
     [feature = 'tourism_viewpoint'] { text-dy: 11; }
     text-face-name: @standard-font;
@@ -2064,7 +2064,7 @@
 
   [feature = 'natural_cape'][zoom >= 14] {
     text-name: "[name]";
-    text-fill: #000;
+    text-fill: darken(#000, 70%);
     text-size: @landcover-font-size;
     text-wrap-width: @landcover-wrap-width-size;
     text-line-spacing: @landcover-line-spacing-size;
@@ -3410,7 +3410,7 @@
   }
   [natural = 'tree']::trunk {
     [zoom >= 18] {
-      trunk/marker-fill: #b27f36;
+      trunk/marker-fill: darken(#b27f36, 70%);
       trunk/marker-allow-overlap: true;
       trunk/marker-line-width: 0;
       trunk/marker-width: 2;

@@ -492,7 +492,7 @@
 
   [feature = 'landuse_landfill'] {
     [zoom >= 10] {
-      polygon-fill: #b6b592;
+      polygon-fill: darken(#b6b592, 70%);
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
     }
@@ -599,7 +599,7 @@
   [feature = 'amenity_police'][zoom >= 8][way_pixels > 900],
   [feature = 'amenity_fire_station'][zoom >= 13],
   [feature = 'amenity_police'][zoom >= 13] {
-    polygon-fill: #F3E3DD;
+    polygon-fill: darken(#F3E3DD, 70%);
     line-color: @military;
     line-opacity: 0.24;
     line-width: 1.0;
@@ -825,10 +825,10 @@
 
 #area-barriers {
   [zoom >= 16] {
-    line-color: #444;
+    line-color: darken(#444, 70%);
     line-width: 0.4;
     [feature = 'barrier_hedge'] {
-      polygon-fill: #aed1a0;
+      polygon-fill: darken(#aed1a0, 70%);
     }
   }
 }
@@ -836,15 +836,15 @@
 .barriers {
   [zoom >= 16] {
     line-width: 0.4;
-    line-color: #444;
+    line-color: darken(#444, 70%);
   }
   [feature = 'barrier_embankment'][zoom >= 14] {
     line-width: 0.4;
-    line-color: #444;
+    line-color: darken(#444, 70%);
   }
   [feature = 'barrier_hedge'][zoom >= 16] {
     line-width: 3;
-    line-color: #aed1a0;
+    line-color: darken(#aed1a0, 70%);
   }
   [feature = 'historic_citywalls'],
   [feature = 'barrier_city_wall'] {
@@ -856,7 +856,7 @@
     [zoom >= 17] {
       line-width: 3;
       barrier/line-width: 0.4;
-      barrier/line-color: #444;
+      barrier/line-color: darken(#444, 70%);
     }
   }
 }
