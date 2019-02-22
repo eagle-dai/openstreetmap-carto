@@ -6,7 +6,7 @@
       line/line-width: 1;
       line/line-join: round;
       line/line-cap: round;
-      line/line-color: #808080;
+      line/line-color: darken(#808080, 70%);
 
       dash/line-width: 3;
       dash/line-join: round;
@@ -16,7 +16,7 @@
       dash/line-clip: false;
       [zoom >= 17] {
         text-name: "[name]";
-        text-fill: #666666;
+        text-fill: darken(#666666, 70%);
         text-size: 10;
         text-dy: 4;
         text-spacing: 900;
@@ -39,16 +39,16 @@
       line/line-width: 1;
       line/line-join: round;
       line/line-cap: round;
-      line/line-color: #808080;
+      line/line-color: darken(#808080, 70%);
 
       dash/line-width: 3.5;
       dash/line-join: round;
-      dash/line-color: #707070;
+      dash/line-color: darken(#707070, 70%);
       dash/line-dasharray: 6,25;
       dash/line-clip: false;
       [zoom >= 17] {
         text-name: "[name]";
-        text-fill: #666666;
+        text-fill: darken(#666666, 70%);
         text-size: 10;
         text-dy: 4;
         text-spacing: 900;
@@ -77,7 +77,7 @@
       line/line-width: 1;
       line/line-join: round;
       line/line-cap: round;
-      line/line-color: #808080;
+      line/line-color: darken(#808080, 70%);
 
       dash/line-width: 4;
       dash/line-join: round;
@@ -86,7 +86,7 @@
       dash/line-clip: false;
       [zoom >= 17] {
         text-name: "[name]";
-        text-fill: #666666;
+        text-fill: darken(#666666, 70%);
         text-size: 10;
         text-dy: 4;
         text-spacing: 900;

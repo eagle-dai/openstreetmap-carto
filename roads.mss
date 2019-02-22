@@ -1,36 +1,36 @@
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
+@tertiary-fill: darken(#ffffff, 70%);
+@residential-fill: darken(#ffffff, 70%);
 @service-fill: @residential-fill;
-@living-street-fill: #ededed;
-@pedestrian-fill: #dddde8;
-@raceway-fill: pink;
-@road-fill: #ddd;
-@footway-fill: salmon;
-@footway-fill-noaccess: #bbbbbb;
+@living-street-fill: darken(#ededed, 70%);
+@pedestrian-fill: darken(#dddde8, 70%);
+@raceway-fill: darken(pink, 70%);
+@road-fill: darken(#ddd, 70%);
+@footway-fill: darken(salmon, 70%);
+@footway-fill-noaccess: darken(#bbbbbb, 70%);
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: blue;
-@cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: green;
-@bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@aeroway-fill: #bbc;
+@steps-fill-noaccess: darken(#bbbbbb, 70%);
+@cycleway-fill: darken(blue, 70%);
+@cycleway-fill-noaccess: darken(#9999ff, 70%);
+@bridleway-fill: darken(green, 70%);
+@bridleway-fill-noaccess: darken(#aaddaa, 70%);
+@track-fill: darken(#996600, 70%);
+@track-fill-noaccess: darken(#e2c5bb, 70%);
+@aeroway-fill: darken(#bbc, 70%);
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-living-street: #cccccc;
+@access-marking: darken(#eaeaea, 70%);
+@access-marking-living-street: darken(#cccccc, 70%);
 
-@default-casing: white;
-@tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@default-casing: darken(white, 70%);
+@tertiary-casing: darken(#8f8f8f, 70%);
+@residential-casing: darken(#bbb, 70%);
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #999;
+@pedestrian-casing: darken(#999, 70%);
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -38,19 +38,19 @@
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #3b3b3b;
+@tertiary-shield: darken(#3b3b3b, 70%);
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #aaa;
-@service-construction: #aaa;
+@minor-construction: darken(#aaa, 70%);
+@service-construction: darken(#aaa, 70%);
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@destination-marking: darken(#c2e0ff, 70%);
+@private-marking: darken(#efa9a9, 70%);
+@private-marking-for-red: darken(#C26363, 70%);
 
-@tunnel-casing: grey;
-@bridge-casing: black;
+@tunnel-casing: darken(grey, 70%);
+@bridge-casing: darken(black, 70%);
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);
@@ -1780,7 +1780,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line-color: grey;
         line-cap: round;
         b/line-width: 4;
-        b/line-color: #bbbbbb;
+        b/line-color: darken(#bbbbbb, 70%);
         b/line-cap: round;
         b/line-join: round;
       }

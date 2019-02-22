@@ -1,4 +1,4 @@
-@ferry-route: #66f;
+@ferry-route: darken(#66f, 70%);
 @ferry-route-text: @ferry-route;
 
 #ferry-routes {

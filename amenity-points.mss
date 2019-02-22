@@ -1,27 +1,27 @@
-@marina-text: #576ddf; // also swimming_pool
-@wetland-text: darken(#4aa5fa, 25%); /* Also for marsh and mud */
-@shop-icon: #ac39ac;
-@shop-text: #939;
-@transportation-icon: #0092da;
-@transportation-text: #0066ff;
+@marina-text: darken(#576ddf, 70%); // also swimming_pool
+@wetland-text: darken(darken(#4aa5fa, 25%), 70%); /* Also for marsh and mud */
+@shop-icon: darken(#ac39ac, 70%);
+@shop-text: darken(#939, 70%);
+@transportation-icon: darken(#0092da, 70%);
+@transportation-text: darken(#0066ff, 70%);
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
-@airtransport: #8461C4; //also ferry_terminal
-@health-color: #BF0000;
-@amenity-brown: #734a08;
-@gastronomy-icon: #C77400;
+@airtransport: darken(#8461C4, 70%); //also ferry_terminal
+@health-color: darken(#BF0000, 70%);
+@amenity-brown: darken(#734a08, 70%);
+@gastronomy-icon: darken(#C77400, 70%);
 @gastronomy-text: darken(@gastronomy-icon, 5%);
 @memorials: @amenity-brown;
 @culture: @amenity-brown;
 @public-service: @amenity-brown;
-@office: #4863A0;
-@man-made-icon: #666666;
+@office: darken(#4863A0, 70%);
+@man-made-icon: darken(#666666, 70%);
 @advertising-grey: @man-made-icon;
-@barrier-icon: #3f3f3f;
-@landform-color: #d08f55;
+@barrier-icon: darken(#3f3f3f, 70%);
+@landform-color: darken(#d08f55, 70%);
 @leisure-green: darken(@park, 60%);
-@aboriginal: #82643a;
-@religious-icon: #000000;
+@aboriginal: darken(#82643a, 70%);
+@religious-icon: darken(#000000, 70%);
 
 @landcover-font-size: 10;
 @landcover-wrap-width-size: 30; // 3 em

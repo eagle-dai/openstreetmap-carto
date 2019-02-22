@@ -4,23 +4,23 @@
 /*                                                                   */
 /*   ./scripts/generate_road_colours.py > road-colors-generated.mss  */
 /*                                                                   */
-@motorway-low-zoom-casing: #c24e6b;
-@trunk-low-zoom-casing: #cf6649;
-@primary-low-zoom-casing: #c38a27;
-@secondary-low-zoom-casing: #9eae23;
-@motorway-casing: #dc2a67;
-@trunk-casing: #c84e2f;
-@primary-casing: #a06b00;
-@secondary-casing: #707d05;
-@motorway-shield: #620728;
-@trunk-shield: #5d1b0b;
-@primary-shield: #4c2e00;
-@secondary-shield: #323b00;
-@motorway-low-zoom: #e66e89;
-@trunk-low-zoom: #f5977a;
-@primary-low-zoom: #f3c380;
-@secondary-low-zoom: #e8eda0;
-@motorway-fill: #e892a2;
-@trunk-fill: #f9b29c;
-@primary-fill: #fcd6a4;
-@secondary-fill: #f7fabf;
+@motorway-low-zoom-casing: darken(#c24e6b, 75%);
+@trunk-low-zoom-casing: darken(#cf6649, 75%);
+@primary-low-zoom-casing: darken(#c38a27, 75%);
+@secondary-low-zoom-casing: darken(#9eae23, 75%);
+@motorway-casing: darken(#dc2a67, 75%);
+@trunk-casing: darken(#c84e2f, 75%);
+@primary-casing: darken(#a06b00, 75%);
+@secondary-casing: darken(#707d05, 75%);
+@motorway-shield: darken(#620728, 75%);
+@trunk-shield: darken(#5d1b0b, 75%);
+@primary-shield: darken(#4c2e00, 75%);
+@secondary-shield: darken(#323b00, 75%);
+@motorway-low-zoom: darken(#e66e89, 75%);
+@trunk-low-zoom: darken(#f5977a, 75%);
+@primary-low-zoom: darken(#f3c380, 75%);
+@secondary-low-zoom: darken(#e8eda0, 75%);
+@motorway-fill: darken(#e892a2, 75%);
+@trunk-fill: darken(#f9b29c, 75%);
+@primary-fill: darken(#fcd6a4, 75%);
+@secondary-fill: darken(#f7fabf, 75%);
