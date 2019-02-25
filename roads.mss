@@ -274,9 +274,9 @@
 @paths-bridge-casing-width:       0.5;
 @paths-tunnel-casing-width:       1;
 
-@junction-text-color:             #960000;
-@halo-color-for-minor-road:       white;
-@lowzoom-halo-color:              white;
+@junction-text-color:             darken(#960000, 70%);
+@halo-color-for-minor-road:       darken(white, 70%);
+@lowzoom-halo-color:              darken(white, 70%);
 @lowzoom-halo-width:              1;
 
 @motorway-oneway-arrow-color:     darken(@motorway-casing, 25%);
