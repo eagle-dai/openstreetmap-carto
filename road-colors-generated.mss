@@ -4,23 +4,23 @@
 /*                                                                   */
 /*   ./scripts/generate_road_colours.py > road-colors-generated.mss  */
 /*                                                                   */
-@motorway-low-zoom-casing: darken(#c24e6b, 50%);
-@trunk-low-zoom-casing: darken(#cf6649, 50%);
-@primary-low-zoom-casing: darken(#c38a27, 50%);
-@secondary-low-zoom-casing: darken(#9eae23, 50%);
-@motorway-casing: darken(#dc2a67, 50%);
-@trunk-casing: darken(#c84e2f, 50%);
-@primary-casing: darken(#a06b00, 50%);
-@secondary-casing: darken(#707d05, 50%);
+@motorway-low-zoom-casing: #416e86; // darken(#c24e6b, 50%);
+@trunk-low-zoom-casing: #416e86; // darken(#cf6649, 50%);
+@primary-low-zoom-casing: #305c74; // darken(#c38a27, 50%);
+@secondary-low-zoom-casing: #305c74; // darken(#9eae23, 50%);
+@motorway-casing: #416e86; // darken(#dc2a67, 50%);
+@trunk-casing: #416e86; // darken(#c84e2f, 50%);
+@primary-casing: #305c74; // darken(#a06b00, 50%);
+@secondary-casing: #305c74; // darken(#707d05, 50%);
 @motorway-shield: darken(#620728, 50%);
 @trunk-shield: darken(#5d1b0b, 50%);
 @primary-shield: darken(#4c2e00, 50%);
 @secondary-shield: darken(#323b00, 50%);
-@motorway-low-zoom: darken(#e66e89, 50%);
-@trunk-low-zoom: darken(#f5977a, 50%);
-@primary-low-zoom: darken(#f3c380, 50%);
-@secondary-low-zoom: darken(#e8eda0, 50%);
-@motorway-fill: darken(#e892a2, 60%);
-@trunk-fill: darken(#f9b29c, 60%);
-@primary-fill: darken(#fcd6a4, 80%);
-@secondary-fill: darken(#f7fabf, 80%);
+@motorway-low-zoom: #416e86; // #e66e89;
+@trunk-low-zoom: #416e86; // #f5977a;
+@primary-low-zoom: #305c74; // #f3c380;
+@secondary-low-zoom: #305c74; // #e8eda0;
+@motorway-fill: #416e86; // #e892a2;
+@trunk-fill: #416e86; // #f9b29c;
+@primary-fill: #305c74; // #fcd6a4;
+@secondary-fill: #305c74; // #f7fabf;
