@@ -12,10 +12,10 @@
 @trunk-casing: #416e86; // darken(#c84e2f, 50%);
 @primary-casing: #305c74; // darken(#a06b00, 50%);
 @secondary-casing: #305c74; // darken(#707d05, 50%);
-@motorway-shield: darken(#620728, 50%);
-@trunk-shield: darken(#5d1b0b, 50%);
-@primary-shield: darken(#4c2e00, 50%);
-@secondary-shield: darken(#323b00, 50%);
+@motorway-shield: #bdd3dd; // darken(#620728, 50%);
+@trunk-shield: #bdd3dd; // darken(#5d1b0b, 50%);
+@primary-shield: #bdd3dd; // darken(#4c2e00, 50%);
+@secondary-shield: #bdd3dd; // darken(#323b00, 50%);
 @motorway-low-zoom: #416e86; // #e66e89;
 @trunk-low-zoom: #416e86; // #f5977a;
 @primary-low-zoom: #305c74; // #f3c380;
